@@ -11,7 +11,7 @@ hr {
 
 .page-scroll {
     position: absolute;
-    bottom: 30px;
+    bottom: 0px;
     width: 100%;
     text-align: center;
 }
