@@ -7,8 +7,11 @@
 
 <link rel="stylesheet" href="./theme/css/normalize.css" type="text/css" />
 <link rel="stylesheet" href="./theme/css/font-awesome.min.css" type="text/css" />
-<link rel="stylesheet" href="./theme/css/dfm.css" type="text/css" />
+<link rel="stylesheet" href="./theme/css/base.css" type="text/css" />
 <link rel="stylesheet" href="./theme/css/code.css" type="text/css" />
+
+<link rel="stylesheet" href="./theme/css/index.css" type="text/css" />
+
 
 
 </head>
@@ -26,7 +29,7 @@
                 <div>
                     <a href="https://github.com/MengyingLi"><i class="fa fa-github fa-3x"></i></a>
                     <a href="https://twitter.com/MY_Mengying"><i class="fa fa-twitter fa-3x"></i></a>
-                    <a href="http://arxiv.org/find/all/1/au:foreman_mackey/0/1/0/all/0/1"><i class="fa fa-pencil fa-3x"></i></a>
+                    <a href="https://www.linkedin.com/in/mengyingli"><i class="fa fa-linkedin-square fa-3x"></i></a>
                 </div>
             </div>
         </div>
@@ -46,7 +49,7 @@
         <img src="./theme/images/Mengying.jpg" alt="me" />
 
         <p>I'm a graduate student at Columbia University. Love writing and telling stories with data. Cooking is an indispensible part in my life. Enjoy exploring different neighborhoods and interacting with different cultures.
-        Take a look at my <a href="cv">C.V.</a> or <a href="#research">scroll down</a>
+        Take a look at my <a href="cv">C.V.</a> or <a href="#DataViz Projects">scroll down</a>
         to read about some of the projects that I'm working on.</p>
 
     </section>
@@ -59,71 +62,86 @@
 
         <p>
 
-        I use statistical tools to evaluate my research question and visualization techniques to deliver my answer. I love both static and interactive visualization. Most of my static plots are made in R (ggplot) and Python (seaborn) and my interactive visualization are made with various JavaScript library, such as Leaflet and D3. 
+        I use statistical tools to evaluate my research question and visualization techniques to deliver my answer. I love both static and interactive visualization. Most of my static plots are made in R (ggplot) and Python (seaborn) and my interactive visualizations are made with various JavaScript library, such as Leaflet and D3. 
 
         </p>
 
-        <h2>Selected Papers</h2>
+        <h2>Interactive Visualization Projects</h2>
 
         <ul>
 
 <li>
-Below is a list of some recent interesting projects that I've worked on and
-<a href="http://arxiv.org/find/all/1/au:foreman_mackey/0/1/0/all/0/1">all
+Below is a list of some recent interesting interactive visualization that I've worked on and
+<a href="https://github.com/MengyingLi">all
     of my projects are accessible from Github</a>.
 </li>
 
 <li>
     <div class="meta">
-        <a class="title" href="http://arxiv.org/abs/1406.3020">Exoplanet
-        population inference and the abundance of Earth analogs from
-        noisy, incomplete catalogs [1406.3020]</a>
-        <span class="authors"><strong>Daniel Foreman-Mackey</strong>,
-            David W. Hogg, Timothy D. Morton</span>
+        <a class="title" href="http://mengyingli.github.io/USOpenTennis">Match Point: Left or Right?</a>
+        <span class="authors"><strong>Mengying Li</strong></span>
     </div>
-    <span class="description">In this paper, we develop a framework
-        for hierarchical probabilistic inference of exoplanet
-        populations taking into account survey completeness,
-        detection efficiency, and observational uncertainties.
-        Applying our method to <a href="http://arxiv.org/abs/1311.6806">an existing catalog</a>,
-        we find that Earth-like exoplanets are less common than previously thought.
-        This paper comes with
-        <a href="http://figshare.com/articles/Exoplanet_population_inference/1051864">publicly released data</a>
-        and <a href="https://github.com/dfm/exopop">open-source code</a>.</span>
+    <span class="description">In this visualization, I used R to webscrape all the basic information, such as handedness and turned pro, from  <a href="http://www.atpworldtour.com/Rankings/Singles.aspx"> ATP Single Ranking </a>. Then I ranked all the left-handed and right-handed players based on their frequency in the US Open and visualized the games played between them using <a href="http://d3js.org/">D3.js</a></span>
 </li>
 
 <li>
     <div class="meta">
-        <a class="title" href="http://arxiv.org/abs/1403.6015">Fast
-            Direct Methods for Gaussian Processes and the Analysis
-            of NASA Kepler Mission Data [1403.6015]</a>
-        <span class="authors">Sivaram Ambikasaran,
-            <strong>Daniel Foreman-Mackey</strong>, Leslie Greengard,
-            David W. Hogg, Michael O'Neil</span>
+        <a class="title" href="http://mengyingli.github.io/NYC_ChineseRestaurant">Chinese Restaurants in the City of New York</a>
+        <span class="authors"><strong>Mengying Li</strong></span>
     </div>
-    <span class="description">My collaborators in applied math have developed
-        <a href="http://www.cims.nyu.edu/~sivaram/manuscript/FDSPAPER.pdf">some
-            fast algorithms for solving dense linear systems</a>.
-        In this paper, we use these algorithms to compute log-determinants and
-        apply these methods to model correlated noise in Kepler data.</span>
+    <span class="description">In this work, I first used <a href=http://www.qgis.org/en/site/>QGIS</a> to geocode all the locations of the Chinese restaurants. I got the demographic information for each neighborhood of NYCfrom <a href="http://www.census.gov/acs/www/"> American Community Survey</a> and visualized the distribution of both Chinese restaurants and the distribution of percentage Chinese in total population using <a href="http://leafletjs.com/"> Leaflet</a>. We can see that the largest density of Chinese restaurants is in Chinatown, Flushing and Sunset Park West, which are also the home to a large portion of Chinese. </span>
 </li>
 
 <li>
     <div class="meta">
-        <a class="title" href="http://arxiv.org/abs/1202.3665">emcee:
-            The MCMC Hammer [1202.3665]</a>
+        <a class="title" href="http://mengyingli.github.io/2009USOpenNetwork">2009 US Open Ring Network</a>
         <span class="authors">
-            <strong>Daniel Foreman-Mackey</strong>, David W. Hogg, Dustin Lang,
-            Jonathan Goodman</span>
+            <strong>  Mengying Li</strong>
+        </span>
     </div>
-    <span class="description">In this paper, we present a popular open-source
-        Markov chain Monte Carlo package written in Python. There is also
-        <a href="http://dan.iel.fm/emcee">online documentation</a> and MIT-licensed
-        <a href="https://github.com/dfm/emcee">code</a>.</span>
+    <span class="description">In this visualization, I presented the story of how Del Potro defeated all the more experienced opponents and became a black horse using <a href="http://d3plus.org/">D3plus</a>.</span>
 </li>
+
 
         </ul>
+        <h2>Research Papers (Static Visualization)</h2>
 
+        <ul>
+
+<li>
+Below is a list of some recent research papers that I have worked on. Static visualization is included.
+<a href="https://github.com/MengyingLi">All
+    of my projects are accessible from Github</a>.
+</li>
+
+<li>
+    <div class="meta">
+        <a class="title" href="http://mengyingli.github.io/USOpenTennis">Match Point: Left or Right?</a>
+        <span class="authors"><strong>Mengying Li</strong></span>
+    </div>
+    <span class="description">In this visualization, I used R to webscrape all the basic information, such as handedness and turned pro, from  <a href="http://www.atpworldtour.com/Rankings/Singles.aspx"> ATP Single Ranking </a>. Then I ranked all the left-handed and right-handed players based on their frequency in the US Open and visualized the games played between them.</span>
+</li>
+
+<li>
+    <div class="meta">
+        <a class="title" href="http://mengyingli.github.io/NYC_ChineseRestaurant">Chinese Restaurants in the City of New York</a>
+        <span class="authors"><strong>  Mengying Li</strong></span>
+    </div>
+    <span class="description">Using the sanitary rating information of the restaurants, I visualized the distribution of Chinese restaurants and also contrasted it with the distribution of percentage Chinese in total population. We can see that the largest density of Chinese restaurants is in Chinatown, Flushing and Sunset Park West, which are also the home to a large portion of Chinese. </span>
+</li>
+
+<li>
+    <div class="meta">
+        <a class="title" href="http://mengyingli.github.io/2009USOpenNetwork">2009 US Open Ring Network</a>
+        <span class="authors">
+            <strong>  Mengying Li</strong>
+        </span>
+    </div>
+    <span class="description">In this visualization, I presented the story of how Del Potro defeated all the more experienced opponents and became a black horse.</span>
+</li>
+
+
+        </ul>
         <h2 id="software">Software</h2>
 
 <p>Most of my job involves writing scientific software. All of it lives on
