@@ -106,6 +106,52 @@ hr {
     background-position: 0 29px;
 }
 
+#gallary. content { padding-bottom: 0 }
+
+#gallary. teammate { margin-top: 60px }
+
+#gallary. teammate .bio { 
+    padding-top: 10px;
+    font-size: 3px;}
+
+#gallary. teammate .photo-rounded {
+  overflow: hidden;
+  -webkit-border-radius: 8px;
+     -moz-border-radius: 8px;
+          border-radius: 8px;
+} 
+
+#gallary. teammate .photo-rounded img {
+  -webkit-transition: all .4s ease;
+     -moz-transition: all .4s ease;
+      -ms-transition: all .4s ease;
+       -o-transition: all .4s ease;
+          transition: all .4s ease;
+}
+
+#gallary. teammate:hover .photo-rounded img,
+
+#gallary. teammate:focus .photo-rounded img {
+  -webkit-transform: scale(1.1);
+     -moz-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+       -o-transform: scale(1.1);
+          transform: scale(1.1);
+}
+#gallary. bio .border {
+  height: 1px;
+  margin: 15px auto;
+}
+
+#gallary. teammate .bio ul {
+  margin-bottom: 0;
+  font-size: 16px;
+}
+#gallary. teammate .bio a { color: #666 }
+
+#gallary. teammate .bio a:hover,
+
+#gallary. teammate .bio a:focus { color: #222 }
 
 #projects .title {
     font-weight: 700;
@@ -132,3 +178,5 @@ hr {
 .project {
     font-weight: 700;
 }
+
+
