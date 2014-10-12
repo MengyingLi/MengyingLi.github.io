@@ -9,14 +9,7 @@ body {
     font-weight: 300;
 }
 
-a {
-    color: #67ad00;
-    text-decoration: none;
-}
 
-a:hover {
-    color: #7fd600;
-}
 
 #container {
     width: 800px;
