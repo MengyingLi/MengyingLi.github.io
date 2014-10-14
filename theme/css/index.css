@@ -17,6 +17,7 @@
     display: table;
     height: 100%;
     margin: 0 auto;
+    padding:15px;
     font-size: 20px;
     line-height: 1.7;
    
@@ -24,15 +25,18 @@
 }
 
 .centered-inner {
+    
     display: table-cell;
     vertical-align: middle;
 }
 
 .centered-content {
+    
     background-color: rgba(0, 0, 0, 0.6);
 }
 
 .shim {
+    padding:15;
     content: " ";
     position: absolute;
     width: 100%;
@@ -64,6 +68,7 @@
 }
 
 .topbar span {
+    padding-top: 15px;
     font-weight: 700;
     font-size: 42px;
 }
@@ -72,7 +77,7 @@
     text-align: center;
     font-weight: 700;
     color: #fff;
-    padding: 20px 0 0;
+    padding: 10px 0 0;
 }
 
 .social a {
