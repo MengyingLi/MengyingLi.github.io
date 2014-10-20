@@ -38,7 +38,7 @@ header:after {
 }
 
 .name {
-    font-size: 20px;
+    font-size: 22px;
     line-height: 22px;
     font-weight: 600;
 }
@@ -49,8 +49,8 @@ section {
     margin-top: 30px;
 }
 
-h2 {
-    font-size: 20px;
+h3 {
+    font-size: 22px;
     line-height: 22px;
     font-weight: 300;
 }
